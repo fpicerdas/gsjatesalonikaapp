@@ -1,0 +1,26 @@
+	<ion-view view-title=" {{ renungan.judul }}" hide-nav-bar="false" >
+		<!-- content -->
+		<ion-content delegate-handle="top" lazy-scroll scroll="true"   id="page-renungan_singles" class="page-renungan_singles">
+					<ion-refresher pulling-text="Pull to refresh..."  on-refresh="doRefresh()"></ion-refresher>
+			<div class="list ">
+
+					<!-- id -->
+					<!-- ./id -->
+
+					<!-- heading-1 -->
+					<div class="item item-divider"  ng-bind-html="renungan.judul | to_trusted">{{renungan.judul}}</div>
+					<!-- ./heading-1 -->
+
+					<!-- images -->
+					<div class="item noborder"><img class="full-image" ng-src="{{renungan.gambar}}"  zoom-view="true" zoom-src="{{renungan.gambar}}"/></div>
+					<!-- ./images -->
+
+					<!-- text -->
+					<div class="item item-text-wrap"><span class="subdued" >{{renungan.isi_renungan}}</span></div>
+					<!-- ./text -->
+			</div>
+			<br/><br/><br/>
+
+		</ion-content>
+		<!-- ./content -->
+	</ion-view>

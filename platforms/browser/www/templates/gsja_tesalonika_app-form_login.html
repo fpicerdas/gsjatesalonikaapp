@@ -1,0 +1,24 @@
+	<ion-view view-title=" Login" hide-nav-bar="true" >
+		<!-- content -->
+		<ion-content delegate-handle="top" lazy-scroll header-shrink="true" scroll-event-interval="5"   id="page-form_login" class="has-header page-form_login">
+		<div class="hero no-header flat" >
+    <div class="content">
+        <!--<div class="app-icon" style="background: url('data/images/avatar/pic6.jpg') center;"></div> -->
+        <h3>Silahkan Login Terlebih dahulu</h3>
+    </div>
+</div>
+
+<div class="list">
+    <ion-md-input autocomplete="off" placeholder="Username" highlight-color="balanced" type="text" ng-model="form_user.uname"></ion-md-input>
+    <ion-md-input autocomplete="off" placeholder="Password" highlight-color="energized" type="password" ng-model="form_user.pwd"></ion-md-input>
+</div>
+
+<div class="padding">
+    <button ng-click="submitUser(form_user)" class="button button-full button-assertive ink">Login</button>
+    <a ui-sref="gsja_tesalonika_app.form_user" class="button button-full button-calm ink">Registrasi</a>
+</div>
+
+
+		</ion-content>
+		<!-- ./content -->
+	</ion-view>

@@ -1,0 +1,39 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-console": {
+      "PACKAGE_NAME": "com.imabuilder.abbayosuadesign.gsjatesalonikaapp"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.imabuilder.abbayosuadesign.gsjatesalonikaapp"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.imabuilder.abbayosuadesign.gsjatesalonikaapp"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.imabuilder.abbayosuadesign.gsjatesalonikaapp"
+    },
+    "ionic-plugin-keyboard": {
+      "PACKAGE_NAME": "com.imabuilder.abbayosuadesign.gsjatesalonikaapp"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.imabuilder.abbayosuadesign.gsjatesalonikaapp"
+    },
+    "cordova-plugin-streaming": {
+      "PACKAGE_NAME": "com.imabuilder.abbayosuadesign.gsjatesalonikaapp"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.imabuilder.abbayosuadesign.gsjatesalonikaapp"
+    },
+    "onesignal-cordova-plugin": {
+      "PACKAGE_NAME": "com.imabuilder.abbayosuadesign.gsjatesalonikaapp"
+    }
+  },
+  "dependent_plugins": {}
+}

@@ -1,0 +1,56 @@
+{
+  "_from": "cordova-plugin-streaming",
+  "_id": "cordova-plugin-streaming@1.4.0",
+  "_inBundle": false,
+  "_integrity": "sha1-q0m8jwTUPB43/taqoG8d1wz1CcI=",
+  "_location": "/cordova-plugin-streaming",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-streaming",
+    "name": "cordova-plugin-streaming",
+    "escapedName": "cordova-plugin-streaming",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-streaming/-/cordova-plugin-streaming-1.4.0.tgz",
+  "_shasum": "ab49bc8f04d43c1e37fed6aaa06f1dd70cf509c2",
+  "_spec": "cordova-plugin-streaming",
+  "_where": "D:\\CODE PROJECTS\\Android apps\\Core Engine\\output\\gsja_tesalonika_app",
+  "author": {
+    "name": "Martin Radosta"
+  },
+  "bugs": {
+    "url": "https://github.com/mradosta/cordova-plugin-streaming/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-streaming",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Streaming Plugin",
+  "homepage": "https://github.com/mradosta/cordova-plugin-streaming#readme",
+  "keywords": [
+    "streaming",
+    "radio",
+    "libaacdecoder",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "Apache 2.0",
+  "name": "cordova-plugin-streaming",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mradosta/cordova-plugin-streaming.git"
+  },
+  "version": "1.4.0"
+}

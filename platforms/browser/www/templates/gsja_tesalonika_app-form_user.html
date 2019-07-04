@@ -1,0 +1,30 @@
+	<ion-view view-title=" Register" hide-nav-bar="false" >
+		<!-- content -->
+		<ion-content delegate-handle="top" lazy-scroll header-shrink="true" scroll-event-interval="5"   id="page-form_user" class="has-header page-form_user">
+		<div class="hero no-header flat">
+    <div class="content">
+        <!--<div class="app-icon" style="background: url('data/images/avatar/pic6.jpg') center;"></div>-->
+        <h3>Silahkan Daftar Sebelum menggunakan Aplikasi</h3>
+    </div>
+</div>
+
+    
+<div class="list">
+    <ion-md-input placeholder="Nama Lengkap" highlight-color="assertive" type="text" ng-model="form_user.fullname"></ion-md-input>
+    <ion-md-input placeholder="Username" highlight-color="assertive" type="text" ng-model="form_user.uname"></ion-md-input>
+    <ion-md-input placeholder="Password" highlight-color="assertive" type="password" ng-model="form_user.pwd"></ion-md-input>
+    <ion-md-input placeholder="Alamat" highlight-color="assertive" type="text" ng-model="form_user.address"></ion-md-input>
+    
+
+    <ion-md-input placeholder="No. Telp" highlight-color="assertive" type="text" ng-model="form_user.phone"></ion-md-input>
+    <ion-md-input placeholder="Alamat Email" highlight-color="assertive" type="email" ng-model="form_user.email"></ion-md-input>
+</div>  
+  
+<div class="padding">
+    <button ng-click="submitUser()" class="button button-full button-assertive ink">Daftar</button>
+    <a class="button button-full button-calm ink" ui-sref="gsja_tesalonika_app.form_login">Login Disini</a>
+</div>
+
+		</ion-content>
+		<!-- ./content -->
+	</ion-view>
